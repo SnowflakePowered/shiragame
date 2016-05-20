@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+
+<datafile>
+	<header>
+		<name>3DO 3DO Interactive Multiplayer - Firmware</name>
+		<description>3DO 3DO Interactive Multiplayer - Firmware (TOSEC-v2012-07-05)</description>
+		<category>TOSEC-ISO</category>
+		<version>2012-07-05</version>
+		<author>idoru - Cassiel</author>
+		<email>contact@tosecdev.org</email>
+		<homepage>TOSEC</homepage>
+		<url>http://www.tosecdev.org/</url>
+	</header>
+	<game name="GoldStar 3DO Interactive Multiplayer BIOS v1.59 (1994-05-10)(3DO Company)[v1.01m]">
+		<description>GoldStar 3DO Interactive Multiplayer BIOS v1.59 (1994-05-10)(3DO Company)[v1.01m]</description>
+		<rom name="GoldStar 3DO Interactive Multiplayer BIOS v1.59 (1994-05-10)(3DO Company)[v1.01m].bin" size="1048576" crc="b6f5028b" md5="8639fd5e549bd6238cfee79e3e749114" sha1="c4a2e5336f77fb5f743de1eea2cda43675ee2de7"/>
+	</game>
+	<game name="Panasonic REAL 3DO Interactive Multiplayer FZ-1 BIOS (1993-08-03)(3DO Company)">
+		<description>Panasonic REAL 3DO Interactive Multiplayer FZ-1 BIOS (1993-08-03)(3DO Company)</description>
+		<rom name="Panasonic REAL 3DO Interactive Multiplayer FZ-1 BIOS (1993-08-03)(3DO Company).bin" size="1048576" crc="c8c8ff89" md5="f47264dd47fe30f73ab3c010015c155b" sha1="34bf189111295f74d7b7dfc1f304d98b8d36325a"/>
+	</game>
+	<game name="Panasonic REAL 3DO Interactive Multiplayer FZ-10 BIOS v1.59.1.1 (1994-08-25)(3DO Company)">
+		<description>Panasonic REAL 3DO Interactive Multiplayer FZ-10 BIOS v1.59.1.1 (1994-08-25)(3DO Company)</description>
+		<rom name="Panasonic REAL 3DO Interactive Multiplayer FZ-10 BIOS v1.59.1.1 (1994-08-25)(3DO Company).bin" size="1048576" crc="58242cee" md5="51f2f43ae2f3508a14d9f56597e2d3ce" sha1="3c912300775d1ad730dc35757e279c274c0acaad"/>
+	</game>
+	<game name="Panasonic REAL 3DO Interactive Multiplayer FZ-10 BIOS v1.59.1.1 (1994-08-25)(3DO Company)[h]">
+		<description>Panasonic REAL 3DO Interactive Multiplayer FZ-10 BIOS v1.59.1.1 (1994-08-25)(3DO Company)[h]</description>
+		<rom name="Panasonic REAL 3DO Interactive Multiplayer FZ-10 BIOS v1.59.1.1 (1994-08-25)(3DO Company)[h].bin" size="1048576" crc="230e6feb" md5="1477bda80dc33731a65468c1f5bcbee9" sha1="f05e642322c03694f06a809c0b90fc27ac73c002"/>
+	</game>
+	<game name="Sanyo TRY 3DO Interactive Multiplayer BIOS v1.59 (1994-05-10)(3DO Company)">
+		<description>Sanyo TRY 3DO Interactive Multiplayer BIOS v1.59 (1994-05-10)(3DO Company)</description>
+		<rom name="Sanyo TRY 3DO Interactive Multiplayer BIOS v1.59 (1994-05-10)(3DO Company).bin" size="1048576" crc="d5cbc509" md5="35fa1a1ebaaeea286dc5cd15487c13ea" sha1="b01c53da256dde43ffec4ad3fc3adfa8d635e943"/>
+	</game>
+</datafile>

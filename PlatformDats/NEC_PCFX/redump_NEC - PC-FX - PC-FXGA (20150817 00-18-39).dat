@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>NEC - PC-FX / PC-FXGA</name>
+		<description>NEC - PC-FX / PC-FXGA 20150817 00-18-39</description>
+		<version>20150817 00-18-39</version>
+		<date>20150817 00-18-39</date>
+		<author>redump.org</author>
+		<homepage>redump.org</homepage>
+		<url>http://redump.org/</url>
+	</header>
+	<game name="Amateur Teikyou CD-ROM (Japan)">
+		<category>Games</category>
+		<description>Amateur Teikyou CD-ROM (Japan)</description>
+		<rom name="Amateur Teikyou CD-ROM (Japan).cue" size="119" crc="ef03c2e2" md5="2d4d6c48b4d055f06a38ce1ee7856260" sha1="df906ec01e19f2613049c90cc0017f7d3cd6c1e6"/>
+		<rom name="Amateur Teikyou CD-ROM (Japan).bin" size="563764992" crc="bf8e82f3" md5="da53e5a17fc963bf40beec2e5112d208" sha1="4857e4ec665f4af2fe56da9e2441223b1804208f"/>
+	</game>
+	<game name="Langrisser FX, Der (Japan)">
+		<category>Games</category>
+		<description>Langrisser FX, Der (Japan)</description>
+		<rom name="Langrisser FX, Der (Japan).cue" size="365" crc="a0c5da1b" md5="da9f75fdd20a38bab932e74e704a4727" sha1="5daffe38eed60fadabd3567888cc9bc1bf8c53ed"/>
+		<rom name="Langrisser FX, Der (Japan) (Track 1).bin" size="4106592" crc="5c972620" md5="255f657ed9e73b2e9ae7801461501fca" sha1="cd288828a7bfc224f20966e5b35ad390693c8d2b"/>
+		<rom name="Langrisser FX, Der (Japan) (Track 2).bin" size="755535312" crc="4f891843" md5="934b46dd3a65a08043b8c48c2a5df517" sha1="efcd0b95b5cacf31ddb52e8c6cf069cd567321d6"/>
+		<rom name="Langrisser FX, Der (Japan) (Track 3).bin" size="17120208" crc="41e67bc3" md5="9c1084b346c175d2209349be43687553" sha1="8acc6e4017614906dd752fa25c8ec4d1063ce826"/>
+	</game>
+	<game name="Battle Heat (Japan)">
+		<category>Games</category>
+		<description>Battle Heat (Japan)</description>
+		<rom name="Battle Heat (Japan).cue" size="2166" crc="c810af33" md5="22915c8b2cc02be3bf6f07d41ba89386" sha1="60dbc2369fd5d1d23c65bac38ec37d479b25840b"/>
+		<rom name="Battle Heat (Japan) (Track 01).bin" size="9984240" crc="ffbd46cf" md5="fd4de25e8dc4adfdca7d23487eb18616" sha1="6f2693dbcf9cbec5ee4799539a73e69ecb633974"/>
+		<rom name="Battle Heat (Japan) (Track 02).bin" size="4370016" crc="a11d738c" md5="75dd6cb5b5cfa2f46e910af29faa09c8" sha1="c1bbbf6812349214029ef4689aa21092c3540d65"/>
+		<rom name="Battle Heat (Japan) (Track 03).bin" size="23472960" crc="5279aedb" md5="9cdd6f43d2ee73d7427c4274218ce58f" sha1="8ad1b974b9a7853dcbda84198c40371d043eca14"/>
+		<rom name="Battle Heat (Japan) (Track 04).bin" size="45431232" crc="9c399232" md5="1c93c048d9fb89cc0098c1c6fd6ac294" sha1="f7f57fc408d609af7afbca6e3b99c03507c97472"/>
+		<rom name="Battle Heat (Japan) (Track 05).bin" size="9749040" crc="94950e78" md5="583dc57fed216ca0e4ec2e0c299127bc" sha1="cdaf5d8c1ee798630a34c397f4cd5a6841103e7c"/>
+		<rom name="Battle Heat (Japan) (Track 06).bin" size="3034080" crc="46b2541c" md5="40faa5abf5a41442de63a9b1846c869d" sha1="84d97233057c691f7adc56d58d16df581c7a0118"/>
+		<rom name="Battle Heat (Japan) (Track 07).bin" size="142968672" crc="102113da" md5="0a613f11e99661885051ec5c9c956909" sha1="402a6f116621ea644136649c0893622d1671f6a4"/>
+		<rom name="Battle Heat (Japan) (Track 08).bin" size="43596672" crc="c69d5399" md5="51b80e8585244282575e2ca93124fa2a" sha1="06629ab4bcc35dbfb5f63024f0dbbbb5385159ad"/>
+		<rom name="Battle Heat (Japan) (Track 09).bin" size="53002320" crc="5a77fcc7" md5="57e49bd19967e82cae56009768cdf87b" sha1="7c6812d9a6de52e1ffbd4bc56d2b45beb75d1189"/>
+		<rom name="Battle Heat (Japan) (Track 10).bin" size="28221648" crc="6a20958b" md5="39a3fdb864e2e829affebdfd31b80e1c" sha1="998fca2989e0ae4db5a0690ddde4fe61481ac7c3"/>
+		<rom name="Battle Heat (Japan) (Track 11).bin" size="23155440" crc="829673a0" md5="6821012e015226a750e81f7b419bdde5" sha1="490b429b4228cd53a444c45783ae9fd97bab8d0c"/>
+		<rom name="Battle Heat (Japan) (Track 12).bin" size="31820208" crc="c48b1bef" md5="3db528f7134c2651248703d5a551846e" sha1="f39cf0e623113dadaea1102a53f1327783c9c673"/>
+		<rom name="Battle Heat (Japan) (Track 13).bin" size="39577104" crc="e04d852c" md5="27aea0670274e59f0353deee0a327b65" sha1="465dc80df3ec149abd82a3104df9c5b812547cf1"/>
+		<rom name="Battle Heat (Japan) (Track 14).bin" size="25674432" crc="4b962a82" md5="ac89437d47c64812b56f5d0255570364" sha1="e29d60647ff2ddd6580856e29cece850bcb1f6d0"/>
+		<rom name="Battle Heat (Japan) (Track 15).bin" size="24947664" crc="1815a27e" md5="94f6fd81ff0e9d5452d492d333f3ff88" sha1="40f4e499300f2f0bda07cc6fb94c248c71c2898e"/>
+		<rom name="Battle Heat (Japan) (Track 16).bin" size="43596672" crc="3e25b7d3" md5="a7bc44c7f848bd2279528eedf302d0f8" sha1="44ec488bedc50e487ac7b505ffe12bcad8b160f3"/>
+		<rom name="Battle Heat (Japan) (Track 17).bin" size="53002320" crc="7f6f6ce9" md5="742349a3e971d04c0e5bdceb6f7c636e" sha1="2dc4086a428903bd382760246376c961c8cc6d58"/>
+		<rom name="Battle Heat (Japan) (Track 18).bin" size="28593264" crc="97720aac" md5="e9faab3b944a2515c7c6e3bc2212d9f5" sha1="ccf567c04b82e23646ba655444340ea3668fe64e"/>
+		<rom name="Battle Heat (Japan) (Track 19).bin" size="24773616" crc="9a2bd8bb" md5="b2a55ed688b32ac7020f9c4c33bfa420" sha1="ff0d18c0ac95fef94740165e3a757b3831b40d65"/>
+		<rom name="Battle Heat (Japan) (Track 20).bin" size="31820208" crc="733cd8d1" md5="a3f683fdf028e976ea177524ba2a28cf" sha1="84d7036c5e34e12872ad6c9bb548bd894be1dadd"/>
+		<rom name="Battle Heat (Japan) (Track 21).bin" size="39577104" crc="d1003684" md5="81bfb65011069a2bb4254bfa991005d1" sha1="fb08dbdef1587ed742ecec29735eabf6080f480c"/>
+		<rom name="Battle Heat (Japan) (Track 22).bin" size="3036432" crc="f05ef9d1" md5="879b50f013dcb3b8f1978c2686e160b7" sha1="6196c344fa902b27e977e1aadb804d7a31585752"/>
+	</game>
+	<game name="Sotsugyou II FX - Neo Generation (Japan)">
+		<category>Games</category>
+		<description>Sotsugyou II FX - Neo Generation (Japan)</description>
+		<rom name="Sotsugyou II FX - Neo Generation (Japan).cue" size="828" crc="3f146144" md5="c85c8799991b26a01e284efd144bb430" sha1="8528b66c212cbf2cfff77892c8564b4e2fa7f547"/>
+		<rom name="Sotsugyou II FX - Neo Generation (Japan) (Track 1).bin" size="31354512" crc="378a716b" md5="7d6e2817cc33ea1e4eafdeaabd4b46a1" sha1="e54d98d6be373d5010e61b86b767028e17e40164"/>
+		<rom name="Sotsugyou II FX - Neo Generation (Japan) (Track 2).bin" size="460681536" crc="77283e8a" md5="d2cc56e46306cc92954457b5eabd5319" sha1="8a19169a53bb8c0ae856cdfc3bfa75517b95136f"/>
+		<rom name="Sotsugyou II FX - Neo Generation (Japan) (Track 3).bin" size="15024576" crc="b662844d" md5="6bc71006d4178ca37ba157c090a657f1" sha1="b23f268df91adc437884b12841b47d4ef48d1df9"/>
+		<rom name="Sotsugyou II FX - Neo Generation (Japan) (Track 4).bin" size="27812400" crc="0ae21ce3" md5="d019695a2dcd7dc6d4b84951b254680a" sha1="1574acf5be67e855991eda7f02bcf968177bd034"/>
+		<rom name="Sotsugyou II FX - Neo Generation (Japan) (Track 5).bin" size="28226352" crc="6858074e" md5="366c652d605d0a67e28e7cfceb8cd2b2" sha1="3cfa13d1ba54b7d931b091d6901e8e6c5cb5ff50"/>
+		<rom name="Sotsugyou II FX - Neo Generation (Japan) (Track 6).bin" size="8542464" crc="d8f46d49" md5="942cc761b9e45a5eb6b1658d22cfaeaa" sha1="aacff423fd569c249abb5f862a34b8fb9e7a7848"/>
+		<rom name="Sotsugyou II FX - Neo Generation (Japan) (Track 7).bin" size="804384" crc="cf9a1247" md5="854cf4fc434bced25e52118750a14640" sha1="562294014b9804eb6a5b580346a66520be8c8544"/>
+	</game>
+</datafile>

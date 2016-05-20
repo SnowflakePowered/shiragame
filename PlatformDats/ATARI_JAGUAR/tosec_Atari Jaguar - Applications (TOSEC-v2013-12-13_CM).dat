@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+
+<datafile>
+	<header>
+		<name>Atari Jaguar - Applications</name>
+		<description>Atari Jaguar - Applications (TOSEC-v2013-12-13)</description>
+		<category>TOSEC</category>
+		<version>2013-12-13</version>
+		<author>Cid - Cassiel</author>
+		<email>contact@tosecdev.org</email>
+		<homepage>TOSEC</homepage>
+		<url>http://www.tosecdev.org/</url>
+	</header>
+	<game name="8Bit BJL Loader ROM (1994)(42Bastian Schick)">
+		<description>8Bit BJL Loader ROM (1994)(42Bastian Schick)</description>
+		<rom name="8Bit BJL Loader ROM (1994)(42Bastian Schick).jag" size="4750" crc="4e23077e" md5="a6ff56af5321fcb0efafa4b5a66d5275" sha1="108b1e62b3bea5580526889cf8f94e82bb9c98f4"/>
+	</game>
+	<game name="Atari Jaguar Behind Jaggi Lines v1.06.0 (199x)(-)(PD)">
+		<description>Atari Jaguar Behind Jaggi Lines v1.06.0 (199x)(-)(PD)</description>
+		<rom name="Atari Jaguar Behind Jaggi Lines v1.06.0 (199x)(-)(PD).rom" size="121698" crc="83d4fb0b" md5="bbba721934e01dc23bfc383efbcd2501" sha1="36c1e20fa836f03cf461e6902cc835682a8022a8"/>
+	</game>
+	<game name="Atari Jaguar Object Processor Tester v2 (19xx)(Lars Hannig)(PD)">
+		<description>Atari Jaguar Object Processor Tester v2 (19xx)(Lars Hannig)(PD)</description>
+		<rom name="Atari Jaguar Object Processor Tester v2 (19xx)(Lars Hannig)(PD).bin" size="226912" crc="11675c2e" md5="237c63771c3d57f63a4642fe98e1a69f" sha1="d05bf492b6165f074a7169bf196d3753797a6854"/>
+	</game>
+	<game name="CD Encryption Utility v1.6 (19xx)(BLJ)(PD)">
+		<description>CD Encryption Utility v1.6 (19xx)(BLJ)(PD)</description>
+		<rom name="CD Encryption Utility v1.6 (19xx)(BLJ)(PD).abs" size="15568" crc="7617581c" md5="724007303e636de7b828bed52a236888" sha1="e7f6ad5766ce319443177cd5d68bae12d0596450"/>
+	</game>
+	<game name="E2prom-Browser v1.1 (19xx)(Matthias Domin)">
+		<description>E2prom-Browser v1.1 (19xx)(Matthias Domin)</description>
+		<rom name="E2prom-Browser v1.1 (19xx)(Matthias Domin).abs" size="22304" crc="60c253bd" md5="ad68b113f47e674e2804571c1ffe2b0a" sha1="b23cc6643ad742955382736dcf7ffc4a307f80b9"/>
+	</game>
+	<game name="Font v1 (199x)(Mr.Well's)(PD)">
+		<description>Font v1 (199x)(Mr.Well's)(PD)</description>
+		<rom name="Font v1 (199x)(Mr.Well's)(PD).bin" size="14864" crc="66b112e9" md5="621ee9e174507858febe0d091547fd4a" sha1="3c04e19dbd3260c8f9d65c20d6d65cfa54acb842"/>
+	</game>
+	<game name="JagOS 2000 (2000)(Favard Laurent)(PD)">
+		<description>JagOS 2000 (2000)(Favard Laurent)(PD)</description>
+		<rom name="JagOS 2000 (2000)(Favard Laurent)(PD).rom" size="36910" crc="c276b819" md5="db3e4c0fed52edda20df5ac1fa8c2033" sha1="089b4d487701b0da6675da3d45691c2a478c5e25"/>
+	</game>
+	<game name="JagReplay v1.0a (1995)(Phoby Creative)(PD)">
+		<description>JagReplay v1.0a (1995)(Phoby Creative)(PD)</description>
+		<rom name="JagReplay v1.0a (1995)(Phoby Creative)(PD).rom" size="131056" crc="53af0874" md5="d5d2c6eeda651ee401093a59a355cab5" sha1="eed1ccf3c7086d05244e19f137d8cc45ea57c1b5"/>
+	</game>
+	<game name="Jaguar MemoryDump v1.1 (19xx)(Matthias Domin)(PD)">
+		<description>Jaguar MemoryDump v1.1 (19xx)(Matthias Domin)(PD)</description>
+		<rom name="Jaguar MemoryDump v1.1 (19xx)(Matthias Domin)(PD).abs" size="12640" crc="ac09ad17" md5="d86530f2d5162aae11e5b39e4aada1d1" sha1="36241d57ca17d0a52c4a15d26920893f9e5b429b"/>
+	</game>
+	<game name="Jaguar Server 270Jb (199x)(-)(PD)">
+		<description>Jaguar Server 270Jb (199x)(-)(PD)</description>
+		<rom name="Jaguar Server 270Jb (199x)(-)(PD).jag" size="14450" crc="af81e751" md5="f39e364bd653bf2920683c215f371405" sha1="10259743bcb2922db3f097aacdb80d4843ce7498"/>
+	</game>
+	<game name="Jaguar Server 50Hz (199x)(-)(PD)">
+		<description>Jaguar Server 50Hz (199x)(-)(PD)</description>
+		<rom name="Jaguar Server 50Hz (199x)(-)(PD).jag" size="202" crc="be069593" md5="d9e159d2975b0f76b7bff4de14667f11" sha1="93b408cf3473c0b7dbe6b0dd17939ad23e640b0c"/>
+	</game>
+	<game name="Jaguar Server 60Hz (199x)(-)(PD)">
+		<description>Jaguar Server 60Hz (199x)(-)(PD)</description>
+		<rom name="Jaguar Server 60Hz (199x)(-)(PD).jag" size="202" crc="eb135948" md5="549c1e91a4fd14fe364cb84e02f32029" sha1="01cab539ecce822787d7c2de87faf4815e1ece79"/>
+	</game>
+	<game name="Jaguar Server Intro (199x)(-)(PD)">
+		<description>Jaguar Server Intro (199x)(-)(PD)</description>
+		<rom name="Jaguar Server Intro (199x)(-)(PD).jag" size="83028" crc="15df5cf9" md5="1f6a54273408761b6aa9d66b78a0fa2b" sha1="62e58b2de3509a3553dd6d330916b1c74e695292"/>
+	</game>
+	<game name="Jaguar Server Intro Mod (199x)(-)(PD)">
+		<description>Jaguar Server Intro Mod (199x)(-)(PD)</description>
+		<rom name="Jaguar Server Intro Mod (199x)(-)(PD).jag" size="83028" crc="ec130c25" md5="0e548e130d741c56c85e3de9bba8d101" sha1="7fa1ff299df7e792920b62a2ab70898ac06d8215"/>
+	</game>
+	<game name="Jaguar Server Scale (199x)(-)(PD)">
+		<description>Jaguar Server Scale (199x)(-)(PD)</description>
+		<rom name="Jaguar Server Scale (199x)(-)(PD).jag" size="10148" crc="60e86bf6" md5="ddb9e14d1d0c2fc42ecf3587ad8200f0" sha1="fee738e8b5517622d74f2436607bb2161fea4e28"/>
+	</game>
+	<game name="Jaguar Server Scale 3 (199x)(-)(PD)">
+		<description>Jaguar Server Scale 3 (199x)(-)(PD)</description>
+		<rom name="Jaguar Server Scale 3 (199x)(-)(PD).jag" size="10244" crc="cd61879b" md5="c48ce7ccd057be13d6e8f0c5c07211b9" sha1="91b0dd2188ecedd220cb75fb9c25f4aa448efdaa"/>
+	</game>
+	<game name="Jaguar Server v1.08 (1996)(Istari Software)(PD)[JagOS]">
+		<description>Jaguar Server v1.08 (1996)(Istari Software)(PD)[JagOS]</description>
+		<rom name="Jaguar Server v1.08 (1996)(Istari Software)(PD)[JagOS].jag" size="1740" crc="44091752" md5="29ca1dde96e3af5e4f67d4df4ba8a021" sha1="74e0aa4a3fe0b450d351b80418518a7239a1ecda"/>
+	</game>
+	<game name="Jaguar Server v1.08 (1996)(Istari Software)(PD)[KeyB]">
+		<description>Jaguar Server v1.08 (1996)(Istari Software)(PD)[KeyB]</description>
+		<rom name="Jaguar Server v1.08 (1996)(Istari Software)(PD)[KeyB].jag" size="144" crc="6912ed13" md5="0c7a860ff2e118047e1c155f8305b873" sha1="67c8a510c6575dc489d5f6c9f6e2b0226470f01c"/>
+	</game>
+	<game name="JDC Example (199x)(Lars Hannig)(PD)">
+		<description>JDC Example (199x)(Lars Hannig)(PD)</description>
+		<rom name="JDC Example (199x)(Lars Hannig)(PD).cof" size="56578" crc="1187ff8f" md5="d5092aae1b068e938b8a6dd184cef57c" sha1="6c47ca6de5f04827e142dc80556413c953f5982b"/>
+	</game>
+	<game name="Joypad Tester (2000)(Matthias Domin)(PD)">
+		<description>Joypad Tester (2000)(Matthias Domin)(PD)</description>
+		<rom name="Joypad Tester (2000)(Matthias Domin)(PD).jag" size="176946" crc="239662f4" md5="88cd0c8a9ac76f7d1f0f91f5eb6bfe43" sha1="053bf53375d9e2c6d82a39a4a0bf4ce0be078667"/>
+	</game>
+	<game name="Joypad Tester (2000)(Matthias Domin)(PD)[a2]">
+		<description>Joypad Tester (2000)(Matthias Domin)(PD)[a2]</description>
+		<rom name="Joypad Tester (2000)(Matthias Domin)(PD)[a2].jag" size="176900" crc="2a65c0d4" md5="105ec0b0ec592ab1e23f2402ff9111bc" sha1="024a26f136ecbeaff2c0ada6857d35acb51f05e7"/>
+	</game>
+	<game name="Joypad Tester (2000)(Matthias Domin)(PD)[a]">
+		<description>Joypad Tester (2000)(Matthias Domin)(PD)[a]</description>
+		<rom name="Joypad Tester (2000)(Matthias Domin)(PD)[a].jag" size="179602" crc="29e9e6ab" md5="ca46d13c7c8c34e9e46fea9b7d5444a6" sha1="d1e0ff2e65214302f214026b2153586f015bf93f"/>
+	</game>
+	<game name="Memory Dump (199x)(Matthias Domin)">
+		<description>Memory Dump (199x)(Matthias Domin)</description>
+		<rom name="Memory Dump (199x)(Matthias Domin).jag" size="18706" crc="d9ec011a" md5="ffa2f795fdc020ee7a0a72f57d3e86a6" sha1="9cfc25c7b1ef22ca7ce8bdbce15d99d0bc30e2c6"/>
+	</game>
+	<game name="Painter (1996)(Sinister Developments)(PD)">
+		<description>Painter (1996)(Sinister Developments)(PD)</description>
+		<rom name="Painter (1996)(Sinister Developments)(PD).jag" size="163146" crc="27c7c6a3" md5="4406a84d18aed221c086215248ed66a4" sha1="6f58b9907b178eabc1f385eb19b2a7a38d9df586"/>
+	</game>
+	<game name="Painter (1996)(Sinister Developments)(PD)[a]">
+		<description>Painter (1996)(Sinister Developments)(PD)[a]</description>
+		<rom name="Painter (1996)(Sinister Developments)(PD)[a].jag" size="163072" crc="71269584" md5="c17071b3c543e26170af27b77589ba4f" sha1="ea4f524c1399921b828a9d5722662a354c94160b"/>
+	</game>
+	<game name="PlaySFX v1.0 (2003)(Robert Jurziga)(PD)">
+		<description>PlaySFX v1.0 (2003)(Robert Jurziga)(PD)</description>
+		<rom name="PlaySFX v1.0 (2003)(Robert Jurziga)(PD).bin" size="19968" crc="0b216c1a" md5="6ba432c0bee276d84308209e040bfb4b" sha1="ea764342ee20e885f3be3ad13b196b1531dbd213"/>
+	</game>
+	<game name="Text Engin v1.0 (19xx)(Edge Designs)(PD)">
+		<description>Text Engin v1.0 (19xx)(Edge Designs)(PD)</description>
+		<rom name="Text Engin v1.0 (19xx)(Edge Designs)(PD).bin" size="53248" crc="54600ca0" md5="4ee3ff8aac7bc63c31bea1f2eafa158e" sha1="dd9b07630c3b350f7572c2e0451110cde43c8e04"/>
+	</game>
+</datafile>

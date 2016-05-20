@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+
+<datafile>
+	<header>
+		<name>Sega Dreamcast - Firmware</name>
+		<description>Sega Dreamcast - Firmware (TOSEC-v2012-09-15)</description>
+		<category>TOSEC-ISO</category>
+		<version>2012-09-15</version>
+		<author>Cassiel</author>
+		<email>contact@tosecdev.org</email>
+		<homepage>TOSEC</homepage>
+		<url>http://www.tosecdev.org/</url>
+	</header>
+	<game name="Sega Dreamcast BIOS v1.004 (1998)(Sega)(M6)">
+		<description>Sega Dreamcast BIOS v1.004 (1998)(Sega)(M6)</description>
+		<rom name="Sega Dreamcast BIOS v1.004 (1998)(Sega)(M6).bin" size="2097152" crc="5454841f" md5="37c921eb47532cae8fb70e5d987ce91c" sha1="1ea132c0fbbf07ef76789eadc07908045c089bd6"/>
+	</game>
+	<game name="Sega Dreamcast BIOS v1.01d (1999)(Sega)(M6)">
+		<description>Sega Dreamcast BIOS v1.01d (1999)(Sega)(M6)</description>
+		<rom name="Sega Dreamcast BIOS v1.01d (1999)(Sega)(M6).bin" size="2097152" crc="89f2b1a1" md5="e10c53c2f8b90bab96ead2d368858623" sha1="8951d1bb219ab2ff8583033d2119c899cc81f18c"/>
+	</game>
+	<game name="Sega Dreamcast BIOS v1.01d (1999)(Sega)(M6)[h]">
+		<description>Sega Dreamcast BIOS v1.01d (1999)(Sega)(M6)[h]</description>
+		<rom name="Sega Dreamcast BIOS v1.01d (1999)(Sega)(M6)[h].bin" size="2097152" crc="a2564fad" md5="a5c6a00818f97c5e3e91569ee22416dc" sha1="edc5d3d70a93c935703d26119b37731fd317d2bf"/>
+	</game>
+	<game name="Sega Dreamcast BIOS v1.022 (1999)(Sega)(US)(M6)">
+		<description>Sega Dreamcast BIOS v1.022 (1999)(Sega)(US)(M6)</description>
+		<rom name="Sega Dreamcast BIOS v1.022 (1999)(Sega)(US)(M6).bin" size="2097152" crc="786168f9" md5="f2cd29d09f3e29984bcea22ab2e006fe" sha1="ba8bbb90fdb29525f24f17055dc2c7b2d7674437"/>
+	</game>
+	<game name="Sega Dreamcast Development Box HKT-0120 BIOS v0.74 (1998)(Sega)(beta)">
+		<description>Sega Dreamcast Development Box HKT-0120 BIOS v0.74 (1998)(Sega)(beta)</description>
+		<rom name="Sega Dreamcast Development Box HKT-0120 BIOS v0.74 (1998)(Sega)(beta).bin" size="2097152" crc="485877bd" md5="f501a3a89e335404d047af17f1c9093b" sha1="dc1af1f1248ffa87d57bc5ef2ea41aac95ecfc5e"/>
+	</game>
+	<game name="Sega Dreamcast Development Box HKT-0120 BIOS v1.011 (1999)(Sega)(M6)">
+		<description>Sega Dreamcast Development Box HKT-0120 BIOS v1.011 (1999)(Sega)(M6)</description>
+		<rom name="Sega Dreamcast Development Box HKT-0120 BIOS v1.011 (1999)(Sega)(M6).bin" size="2097152" crc="2186e0e5" md5="eafca1eed2d7f76c487e940597c2a786" sha1="6bd18fb83f8fdb56f1941e079580e5dd672a6dad"/>
+	</game>
+</datafile>
