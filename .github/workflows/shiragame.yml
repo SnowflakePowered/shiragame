@@ -1,0 +1,109 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Publish new Shiragame database
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  schedule:
+    - cron: "0 0 * * 0,3" # runs every Sunday and Wednesday at midnight.
+  watch:
+    types: [started]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        components: "cargo"
+      
+    - name: Cache DAT tools
+      uses: actions/cache@v2.0.0
+      with:
+        path: |
+          ~/.cargo/bin/shiratsu
+          ~/.cargo/bin/atsumare
+          ~/.cargo/git
+        key: cargo
+
+    - name: Install atsumare and shiratsu
+      run: |
+        cargo install --git https://github.com/SnowflakePowered/atsumare
+        cargo install --git https://github.com/SnowflakePowered/shiratsu
+        
+    - name: Fetch and publish DATs
+      run: |
+        mkdir unsorted
+        atsumare unsorted --redump
+        cd unsorted
+        unzip "*zip"
+        cd ..
+        shiratsu sort
+        shiratsu shiragame.db
+        zip shiragame.zip shiragame.db shiragame.db.log shiragame.db.inputs.log
+      env:
+        ATSUMARE_DOM_USER: ${{ secrets.ATSUMARE_DOM_USER }}
+        ATSUMARE_DOM_PASS: ${{ secrets.ATSUMARE_DOM_PASS }}
+        ATSUMARE_REDUMP_USER: ${{ secrets.ATSUMARE_REDUMP_USER }}
+        ATSUMARE_REDUMP_PASS: ${{ secrets.ATSUMARE_REDUMP_PASS }}
+
+    - name: Publish Full Release as an Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Shiragame Database
+        path: shiragame.zip 
+
+    - name: Commit Logs
+      id: logs
+      run: |
+        now=$(date +'%Y-%m-%d-%s')
+        echo ::set-output name=now::$now
+        ls -a
+        mkdir "logs/$now"
+        cp shiragame.db.log logs/$now/shiragame.db.log
+        cp shiragame.db.inputs.log logs/$now/shiragame.db.inputs.log
+        git config --local user.email "action@github.com"
+        git config --local user.name "Shiragame Runner"
+        git add "logs/**/*"
+        git commit -m "Logs for Shiragame database generated $now" -a
+  
+    - name: Push Logs
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
+
+    - name: Get Release Text
+      uses: pCYSl5EDgo/cat@master
+      id: release-text
+      with:
+        path: shiragame.db.inputs.log
+
+    - name: Create Release
+      uses: actions/create-release@v1.1.1
+      id: release
+      with:
+        tag_name: ${{ steps.logs.outputs.now }}
+        release_name: ${{ steps.logs.outputs.now }}
+        body:  ${{ steps.release-text.outputs.text }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Publish DB as release
+      uses: actions/upload-release-asset@v1.0.2
+      with:
+        upload_url: ${{ steps.release.outputs.upload_url }}
+        asset_path: shiragame.zip
+        asset_name: shiragame.zip
+        asset_content_type: application/zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
