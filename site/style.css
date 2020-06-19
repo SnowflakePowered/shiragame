@@ -1,0 +1,38 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo img {
+    max-width: 400px;
+}
+
+.logo, .badges {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+a, a:visited {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+.faq {
+    margin: 0 50px;
+}
+
+h2 {
+
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html> 
+    <head>
+        <link rel="icon" type="image/svg" href="logo_badge.svg">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">        <link rel="stylesheet" href="style.css">
+        <title>shiragame</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="logo.svg" alt="shiragame">
+            </div>
+            <div class="badges">
+                <a href="https://github.com/SnowflakePowered/shiragame/releases/latest">
+                    <img src="https://img.shields.io/github/v/release/SnowflakePowered/shiragame">
+                </a>
+            </div>
+            <div class="badges">
+                <a href="https://github.com/SnowflakePowered/shiragame/releases/latest/download/shiragame.zip">download shiragame</a>
+            </div>
+        </header>
+        <section class="faq">
+            <h2>What is shiragame?</h2>
+            <div>
+                shiragame is a games and ROM SQLite database that is automatically updated twice weekly by compiling DAT files from cataloguing organizations like <a href="http://redump.org/">Redump</a>, <a href="https://www.no-intro.org/">No-Intro</a>, or <a href="https://www.tosecdev.org/">TOSEC</a>. It provides a fully versioned schema and API defined in its <a href="https://github.com/SnowflakePowered/shiratsu/blob/master/spec.md">specification</a>, and follows <a href="https://stone.snowflakepowe.red/#/">Stone</a> definitions for platform identifiers and <em>ROM content-types</em>. 
+            </div>
+            <h2>Is shiragame like OpenVGDB?</h2>
+            <div>
+                shiragame is a <em>companion</em>, not a <em>replacement</em> for scrapers, and other similar databases like <a href="https://github.com/OpenVGDB/OpenVGDB/releases">OpenVGDB</a>, as it only attests for the existence of a ROM dump, and some metadata from the game the ROM dump belongs to. It does not provide more information other than what can be ascertained from its source DAT files. However, since shiragame is updated with the latest releases, it is much more extensive and can be used with many other information sources and scrapers once existence of a game or ROM is attested.
+            </div>
+            <h2>What platforms does shiragame support?</h2>
+            <div>
+                shiragame collates DAT files from all platforms defined by <a href="https://stone.snowflakepowe.red/#/defs/platforms">Stone</a>. Each catalogued ROM is given a <em>content type</em> if possible, as assigned by Stone, for ROM identification. Not all available DATs are used, especially for DATs that contain ROM entries that could not easily be ascertained a content type, such as CDN contents for certain modern systems. A full list of DAT files that was used to compile a shiragame release is always available as part of the logs released with every database revision.
+            </div>
+            <h2>Who is shiragame for?</h2>
+            <div>
+                shiragame was originally created for the <a href="https://snowflakepowe.red/">Snowflake</a> emulator frontend framework for use as a games attestation database. It is provided here in hopes it will be useful for your project. The latest version of shiragame can always be downloaded <a href="https://github.com/SnowflakePowered/shiragame/releases/latest/download/shiragame.zip">at this linked URL</a>.
+            </div>
+            <h2>Who is shiragame for?</h2>
+            <div>
+                shiragame was originally created for the <a href="https://snowflakepowe.red/">Snowflake</a> emulator frontend framework for use as a games attestation database. It is provided here in hopes it will be useful for your project. The latest version of shiragame can always be downloaded <a href="https://github.com/SnowflakePowered/shiragame/releases/latest/download/shiragame.zip">at this linked URL</a>.
+            </div>
+            <h2>What is Stone?</h2>
+            <div>
+                Stone defines and describes identifiers, metadata, BIOS files, and content types for various gaming platforms and their executable and resources. A full list of platforms and content types is available <a href="https://stone.snowflakepowe.red/#/defs/platforms/">here</a>. It is a fully open source project and is open to community contributions and fixes on <a href="https://github.com/SnowflakePowered/stone">GitHub</a>.
+            </div>
+            <h2>How is shiragame compiled?</h2>
+            <div>
+                A GitHub Action automatically runs twice every week, on Sunday at 00:00 UTC, and Wednesday at 00:00 UTC, that automatically fetches the latest DAT files from cataloguing organizations, and compiles it into a SQLite database. <a href="https://github.com/SnowflakePowered/atsumare">atsumare</a> is used to fetch DAT files, and the database is generated with <a href="https://github.com/SnowflakePowered/shiratsu">shiratsu</a>.
+            </div>
+        </section>
+    </body>
+</html>
