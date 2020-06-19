@@ -5,3 +5,11 @@
 Shiragame is a Stone-backed games database, that allows you to look up game titles by hash, or game serial.
 
 See [shiratsu](https://github.com/SnowflakePowered/shiratsu) for the database schema specification.
+
+A new revision of Shiragame is released twice weekly, once at 00:00UTC every Sunday, and 00:00UTC every Wednesday.
+
+# Legal
+
+The compiled data is courtesy of Redump, No-Intro, The Old School Computing Centre, and their respective contributors.
+
+Logs and database releases are released under the terms of the MIT license.

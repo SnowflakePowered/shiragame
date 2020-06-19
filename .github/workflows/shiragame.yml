@@ -43,7 +43,7 @@ jobs:
     - name: Fetch and publish DATs
       run: |
         mkdir unsorted
-        atsumare unsorted --redump
+        atsumare unsorted --redump --nointro --tosec
         cd unsorted
         unzip "*zip"
         cd ..
@@ -94,10 +94,15 @@ jobs:
       with:
         tag_name: ${{ steps.logs.outputs.now }}
         release_name: ${{ steps.logs.outputs.now }}
-        body:  ${{ steps.release-text.outputs.text }}
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        body: |
+          This release was built with the following DAT files.
+
+          ```
+          ${{ steps.release-text.outputs.text }}
+          ```
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
     - name: Publish DB as release
       uses: actions/upload-release-asset@v1.0.2
       with:
