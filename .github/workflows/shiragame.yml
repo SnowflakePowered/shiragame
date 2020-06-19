@@ -37,8 +37,8 @@ jobs:
 
     - name: Install atsumare and shiratsu
       run: |
-        cargo install --git https://github.com/SnowflakePowered/atsumare
-        cargo install --git https://github.com/SnowflakePowered/shiratsu
+        (cargo install --git https://github.com/SnowflakePowered/atsumare || true)
+        (cargo install --git https://github.com/SnowflakePowered/shiratsu || true)
         
     - name: Fetch and publish DATs
       run: |
