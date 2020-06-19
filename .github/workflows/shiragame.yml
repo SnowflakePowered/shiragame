@@ -7,8 +7,6 @@ name: Publish new Shiragame database
 on:
   schedule:
     - cron: "0 0 * * 0,3" # runs every Sunday and Wednesday at midnight.
-  watch:
-    types: [started]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
