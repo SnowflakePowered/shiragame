@@ -4,9 +4,9 @@ name: Publish new Shiragame database
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on:
-  schedule:
-    - cron: "0 0 * * 0" # runs every Sunday at midnight.
+# on:
+#   schedule:
+#     - cron: "0 0 * * 0" # runs every Sunday at midnight.
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
