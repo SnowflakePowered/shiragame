@@ -24,14 +24,14 @@ jobs:
         toolchain: stable
         components: "cargo"
       
-    - name: Cache DAT tools
-      uses: actions/cache@v2.0.0
-      with:
-        path: |
-          ~/.cargo/bin/shiratsu
-          ~/.cargo/bin/atsumare
-          ~/.cargo/git
-        key: cargo-08-13-2020
+#     - name: Cache DAT tools
+#       uses: actions/cache@v2.0.0
+#       with:
+#         path: |
+#           ~/.cargo/bin/shiratsu
+#           ~/.cargo/bin/atsumare
+#           ~/.cargo/git
+#         key: cargo-08-13-2020
 
     - name: Install atsumare and shiratsu
       run: |
