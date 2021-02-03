@@ -14,7 +14,7 @@ shiragame is a games database that allows you to look up game titles by ROM hash
 
 shiragame also guarantees a semantically versioned schema for the convenience of its users. See [shiratsu](https://github.com/SnowflakePowered/shiratsu) for the database schema specification. 
 
-A new revision of shiragame is published approximately once a month. Database generation is automated with [shiratsu](https://github.com/SnowflakePowered/shiratsu).
+A new revision of shiragame is published approximately once a week. Database generation is automated with [shiratsu](https://github.com/SnowflakePowered/shiratsu).
 
 ## Legal
 
