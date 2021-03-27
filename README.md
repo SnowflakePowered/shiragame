@@ -6,7 +6,7 @@
 
 **API**
 
- [![Stone](https://img.shields.io/badge/stone-10.0.0-brightgreen.svg)](https://github.com/SnowflakePowered/stone)&nbsp;[![version](https://img.shields.io/badge/schema-2.0.0-blue.svg)](https://github.com/SnowflakePowered/shiratsu/blob/2.0.0/spec.md)&nbsp;![license](https://img.shields.io/github/license/snowflakepowered/shiragame.svg?maxAge=2592000)
+ [![Stone](https://img.shields.io/badge/stone-10.0.0-brightgreen.svg)](https://github.com/SnowflakePowered/stone)&nbsp;[![version](https://img.shields.io/badge/schema-2.1.0-blue.svg)](https://github.com/SnowflakePowered/shiratsu/blob/2.0.0/spec.md)&nbsp;![license](https://img.shields.io/github/license/snowflakepowered/shiragame.svg?maxAge=2592000)
 
 ## About
 
