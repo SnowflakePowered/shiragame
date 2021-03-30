@@ -48,6 +48,8 @@ jobs:
         shiratsu sort
         shiratsu shiragame.db
         zip shiragame.zip shiragame.db shiragame.db.log shiragame.db.inputs.log
+        zip shiragame.db.zip shiragame.db
+        tar -cvzf shiragame.db.log shiragame.db.log.tar.gz
       env:
         ATSUMARE_DOM_USER: ${{ secrets.ATSUMARE_DOM_USER }}
         ATSUMARE_DOM_PASS: ${{ secrets.ATSUMARE_DOM_PASS }}
@@ -57,8 +59,14 @@ jobs:
     - name: Publish Full Release as an Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: Shiragame Database
+        name: Shiragame Database with Logs
         path: shiragame.zip 
+        
+    - name: Publish Database-only Release as an Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Shiragame Database
+        path: shiragame.db.zip 
 
     - name: Commit Logs
       id: logs
@@ -67,7 +75,7 @@ jobs:
         echo ::set-output name=now::$now
         ls -a
         mkdir "logs/$now"
-        cp shiragame.db.log logs/$now/shiragame.db.log
+        cp shiragame.db.log.tar.gz logs/$now/shiragame.db.log.tar.gz
         cp shiragame.db.inputs.log logs/$now/shiragame.db.inputs.log
         git config --local user.email "action@github.com"
         git config --local user.name "Shiragame Runner"
