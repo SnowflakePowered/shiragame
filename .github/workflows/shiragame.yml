@@ -41,7 +41,7 @@ jobs:
     - name: Fetch and publish DATs
       run: |
         mkdir unsorted
-        atsumare unsorted --redump --nointro --tosec
+        atsumare unsorted --redump --nointro --tosec --datssite --opengood
         cd unsorted
         unzip "*zip"
         cd ..
