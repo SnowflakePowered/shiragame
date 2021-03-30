@@ -7,9 +7,6 @@ name: Publish new Shiragame database
 on:
   schedule:
     - cron: "0 0 * * 0" # runs every Sunday at midnight.
-  push:
-    branches:
-      - master
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -112,12 +109,21 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
-    - name: Publish DB as release
+    - name: Publish Full DB as release
       uses: actions/upload-release-asset@v1.0.2
       with:
         upload_url: ${{ steps.release.outputs.upload_url }}
         asset_path: shiragame.zip
         asset_name: shiragame.zip
+        asset_content_type: application/zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Publish DB-only as release
+      uses: actions/upload-release-asset@v1.0.2
+      with:
+        upload_url: ${{ steps.release.outputs.upload_url }}
+        asset_path: shiragame.db.zip
+        asset_name: shiragame.db.zip
         asset_content_type: application/zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
