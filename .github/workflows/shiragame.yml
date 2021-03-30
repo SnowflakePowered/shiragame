@@ -52,7 +52,7 @@ jobs:
         shiratsu shiragame.db
         zip shiragame.zip shiragame.db shiragame.db.log shiragame.db.inputs.log
         zip shiragame.db.zip shiragame.db
-        tar -cvzf shiragame.db.log shiragame.db.log.tar.gz
+        tar -cvzf shiragame.db.log.tar.gz shiragame.db.log
       env:
         ATSUMARE_DOM_USER: ${{ secrets.ATSUMARE_DOM_USER }}
         ATSUMARE_DOM_PASS: ${{ secrets.ATSUMARE_DOM_PASS }}
