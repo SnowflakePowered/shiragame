@@ -35,9 +35,10 @@ jobs:
 
     - name: Install atsumare and shiratsu
       run: |
-        (cargo install --git https://github.com/SnowflakePowered/atsumare || true)
-        (cargo install --git https://github.com/SnowflakePowered/shiratsu || true)
-        
+        (cargo install --git https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/SnowflakePowered/atsumare || true)
+        (cargo install --git https:/github.com/SnowflakePowered/shiratsu || true)
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Fetch and publish DATs
       run: |
         mkdir unsorted
