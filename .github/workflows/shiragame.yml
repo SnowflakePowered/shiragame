@@ -6,10 +6,7 @@ name: Publish new Shiragame database
 # events but only for the master branch
 on:
   schedule:
-    - cron: "0 0 1 * *" # runs every Sunday at midnight.
-  push:
-    branches:
-      - master
+    - cron: "0 0 14 * *" # runs every 14th of each month.
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
