@@ -9,7 +9,7 @@ on:
     - cron: "0 0 1 * *" # runs every Sunday at midnight.
   push:
     branches:
-      - main
+      - master
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
