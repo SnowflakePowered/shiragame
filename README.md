@@ -2,7 +2,7 @@
 
 **Release**
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/SnowflakePowered/shiragame/Publish%20new%20Shiragame%20database)&nbsp;[![GitHub release (latest by date)](https://img.shields.io/github/v/release/SnowflakePowered/shiragame)](https://github.com/SnowflakePowered/shiragame/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/SnowflakePowered/shiragame)](https://github.com/SnowflakePowered/shiragame/releases/latest)
 
 **API**
 
